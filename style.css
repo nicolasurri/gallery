@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+img {
+    max-height: calc(100vh - 95px);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    background-color: black;
+}
+
+.main-nav {
+    color: white;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    position: relative;
+    margin: 0;
+    font-size: 40px;
+    cursor: grab;
+    z-index: 10;
+}

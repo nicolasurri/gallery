@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery with Swiper and Popmotion</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <h1 class="brand">🐶 Sophie</h1>
+        <p>drag and drop the dog icon ;)</p>
+    </nav>
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="images/1.jpeg" alt="Sophie" /></div>
+            <div class="swiper-slide"><img src="images/2.jpeg" alt="Sophie" /></div>
+            <div class="swiper-slide"><img src="images/3.jpeg" alt="Sophie" /></div>
+            <div class="swiper-slide"><img src="images/4.jpeg" alt="Sophie" /></div>
+            <div class="swiper-slide"><img src="images/5.jpeg" alt="Sophie" /></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- https://popmotion.io/pure/ -->
+    <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
